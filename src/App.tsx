@@ -7,7 +7,12 @@ function App() {
       <h1>Dashboard Elite</h1>
       
 
-      <Card title="Learn React" views={100} isNew={true} />
+      <Card 
+      title="Learn React" 
+      views={100} 
+      isNew={true} 
+      category="Tech"
+      />
 
       <SkillList />
 
